@@ -1,0 +1,71 @@
+/*大字标题*/
+#banner {
+    background: #000103;
+}
+
+.banner-container {
+    position: relative;
+    margin: 0 auto;
+    width: 1230px;
+    height: 340px;
+    background: url(../images/banner-intro-bg.png) no-repeat right center;
+}
+
+.banner-container img {
+    position: absolute;
+    top: 135px;
+    right: 165px;
+}
+
+/*主要内容*/
+#main {
+    padding-top: 30px;
+    background-color: #fff;
+}
+
+.main-content {
+    border-top: 3px solid #e50011;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    width: 1230px;
+}
+
+.content-left {
+    float: left;
+    width: 400px;
+    transition: transform 1s;
+    transform: translate(-50px, 0);
+}
+
+.content-left h1 {
+    margin: 0;
+    padding: 40px 0 30px 34px;
+    font-size: 45px;
+    font-weight: 200;
+    color: #fff;
+    background-color: #00b7ee;
+}
+
+.content-left ul {
+    padding-left: 30px;
+}
+
+.content-left a {
+    display: block;
+    margin: 30px;
+    color: #999;
+}
+
+.content-right {
+    border-left: 1px solid #e5e5e5;
+    margin-left: 400px;
+    padding-left: 100px;
+    transition: transform 1s;
+    transform: translate(1200px, 0);
+}
+
+.content-right h2 {
+    display: inline-block;
+    border-bottom: 3px solid #00b7ee;
+    padding-bottom: 10px;
+}

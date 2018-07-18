@@ -1,0 +1,26 @@
+#footer {
+    padding: 50px 0;
+}
+
+.footer-content {
+    margin: 0 auto;
+    width: 1230px;
+}
+
+.footer-info {
+    border-top: 1px solid #b21600;
+    padding-top: 10px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.footer-info ul {
+    float: left;
+    margin-right: 30px;
+}
+
+.footer-copyright {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #fff;
+}

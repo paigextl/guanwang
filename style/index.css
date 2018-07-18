@@ -1,0 +1,166 @@
+/*首页轮播*/
+#carousel {
+    height: 764px;
+    width: 100%;
+    background-color: #000103;
+}
+
+.carousel-container img {
+    width: 1900px;
+}
+
+/*主要内容*/
+#main {
+    background-color: #000103;
+}
+
+.main-container {
+    margin: 0 auto;
+    width: 1230px;
+}
+
+.col-md-12 {
+    float: left;
+    margin-bottom: 50px;
+}
+
+.separator {
+    height: 2px;
+    background-image: url(../images/hr.png);
+}
+
+.title {
+    position: relative;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.title span {
+    display: inline-block;
+    padding-left: 25px;
+    background: url(../images/titleDecoration2.png) no-repeat left center;
+}
+
+.title i {
+    display: inline-block;
+    padding-right: 25px;
+    background: url(../images/titleDecoration2.png) no-repeat right center;
+}
+
+.content {
+    width: 1200px;
+}
+
+.col-md-2 {
+    float: left;
+    border: 1px solid rgba(255, 255, 255, 0);
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 14%;
+    height: 308px;
+}
+
+.col-md-2:hover {
+    border: 1px solid rgba(255, 255, 255, .6);
+    border-radius: 20px;
+}
+
+.li h3 {
+    margin: 0 0 10px;
+    padding: 100px 0 35px 0;
+    font-size: 12px;
+    line-height: 32px;
+    color: rgba(255, 255, 255, .9);
+    text-align: center;
+    background: url(../images/titleDecoration1.png) no-repeat center center;
+    background-size: contain;
+}
+
+.li p {
+    margin: 20px 0 10px;
+    font-size: 12px;
+    color: rgba(255, 255, 255, .6);
+}
+
+.li a:last-child {
+    display: none;
+    margin: 30px 0 20px;
+    padding: 10px 0;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    background-color: #cea971;
+}
+
+.tabPane {
+    height: 80px;
+    line-height: 80px;
+    font-size: 20px;
+    color: #c4c5c5;
+    background-color: #0e0f0f;
+}
+
+.tabPane ul {
+    text-align: center;
+}
+
+.tabPane li {
+    float: left;
+    width: 25%;
+}
+
+.tabPane li span {
+    display: inline-block;
+}
+
+.currentSelect {
+    border-bottom: 3px solid #0ec8dc;
+}
+
+.tab1-caseDetail, .tab2-caseDetail, .tab3-caseDetail, .tab4-caseDetail {
+    margin: 50px 0 30px;
+}
+
+.tab2-caseDetail, .tab3-caseDetail, .tab4-caseDetail {
+    display: none;
+}
+
+.case li {
+    float: left;
+}
+
+.tabPane.aboutUs li {
+    width: 33%;
+}
+
+.team {
+    margin: 30px 0 50px;
+}
+
+.tab6-team-content, .tab7-team-content {
+    display: none;
+}
+
+.team-content {
+    border-radius: 20px;
+    padding: 42px 42px 42px 170px;
+    color: #fff;
+    background: #323436 url(../images/bg.png) no-repeat left center;
+}
+
+.team-content h2 {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.team-content p {
+    font-size: 14px;
+}
+
+.team-content p a {
+    display: block;
+    float: right;
+    color: #fff;
+}
+

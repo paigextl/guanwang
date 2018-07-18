@@ -1,0 +1,97 @@
+/*大字标题*/
+#banner {
+    height: 340px;
+    background: url(../images/list-bg.jpg);
+}
+
+.banner-container {
+    position: relative;
+    margin: 0 auto;
+    width: 1230px;
+    height: 100%;
+    background: url(../images/banner-bg.png) no-repeat right center;
+}
+
+.banner-container img {
+    position: absolute;
+    right: 200px;
+    bottom: 122px;
+    animation: bannerMove 1s;
+}
+
+@keyframes bannerMove {
+    from {
+        right: 0;
+        bottom: 0
+    }
+    to {
+        right: 200px;
+        bottom: 122px
+    }
+}
+
+/*主要内容*/
+.main-container {
+    border-top: 3px solid #e50011;
+}
+
+.main-container ul {
+    background: url(../images/list-bg.jpg) no-repeat center top;
+
+}
+
+.main-container li {
+    background: #0e0e0e;
+    transition: transform 0.35s;
+}
+.main-container ul li {
+    transform: translate(-100%,0px);
+}
+
+.main-container li:hover {
+    background-color: rgba(255, 255, 255, .1);
+}
+
+.article-list-container {
+    margin: 0 auto;
+    padding: 60px 0;
+    width: 1230px;
+    color: pink;
+}
+
+.publishTime {
+    float: left;
+    width: 25%;
+    height: 80px;
+}
+
+.date {
+    display: block;
+    font-size: 51px;
+    text-align: right;
+    color: #5fdfff;
+}
+
+.year {
+    display: block;
+    font-size: 23px;
+    text-align: right;
+    color: #6d6d6d;
+}
+
+.publishContent {
+    float: right;
+    padding: 0 15px;
+    width: 70%;
+}
+
+.publishContent h5 {
+    margin-top: 0;
+    font-size: 25px;
+    font-weight: 300;
+    color: #b5b5b5;
+}
+
+.publishContent p {
+    color: #6d6d6d;
+}

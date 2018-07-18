@@ -1,0 +1,183 @@
+a:visited {
+    color: #333;
+}
+
+.clearfix:before, .clearfix:after {
+    display: table;
+    content: '';
+}
+
+/*大字标题*/
+#banner {
+    background: url(../images/coreBusiness.png) no-repeat center center;
+}
+
+.banner-container {
+    margin: 0 auto;
+    width: 1230px;
+    height: 340px;
+}
+
+/*主要内容*/
+.main-content {
+    position: relative;
+    border-top: 3px solid #e50011;
+    margin: 0 auto;
+    width: 1230px;
+    font-size: 14px;
+    background-color: #fff;
+    transition: transform 1s;
+    transform: translate(0, 500px);
+}
+
+.main-content-title {
+    border-bottom: 1px solid #cecece;
+    height: 80px;
+    line-height: 80px;
+}
+
+.main-content-title a {
+    border-right: 2px solid #666;
+    padding: 0 50px;
+    font-size: 18px;
+}
+
+.main-content-title li:first-child a {
+    border-left: none;
+}
+
+.main-content-content {
+    padding: 20px 100px 70px;
+    background-color: #fff;
+}
+
+.main-content-content h2 {
+    border-bottom: 1px solid #cecece;
+    line-height: 82px;
+    font-size: 28px;
+}
+
+.coreContent1 {
+    margin-bottom: 100px;
+}
+
+.coreContent1 img {
+    float: left;
+    width: 48%;
+}
+
+.coreContent1 img + div {
+    float: right;
+    width: 45%;
+    color: #000;
+}
+
+#introCoreContent2 {
+    margin-bottom: 30px;
+}
+
+#product1 h3 span:first-child {
+    display: inline-block;
+    margin-right: 5px;
+    padding: 5px 10px;
+    font-weight: 300;
+    color: #fff;
+    background-color: #2e4a77;
+}
+
+#product1 > p, #product2 > p, #product3 > p {
+    margin-bottom: 50px;
+    color: #888;
+}
+
+#productOnePic {
+    float: left;
+    width: 40%;
+}
+
+#productOnePic img {
+    width: 100%;
+}
+
+#productOneDetail {
+    float: left;
+    width: 55%;
+    padding-left: 50px;
+    text-align: center;
+}
+
+#productOneDetail li {
+    float: left;
+    margin-right: 20px;
+}
+
+#productOneDetail li > div:first-child {
+    padding: 10px 20px;
+    background-color: #2d4976;
+    color: #fff;
+}
+
+#productOneDetail li > div:last-child {
+    background: #dcdcdc;
+    padding: 30px;
+    margin-top: 10px;
+}
+
+#product1 > div:last-child {
+    margin: 50px 0;
+    font-size: 16px;
+    text-align: center;
+    color: #888;
+}
+
+#product3 li {
+    float: left;
+    border: 1px solid #DFDFDF;
+    margin-right: 20px;
+    padding: 30px;
+    width: 12%;
+    text-align: center;
+    background-color: #eee;
+}
+
+#product3 li > div:first-child {
+    border-bottom: 4px solid #2d4976;
+    padding-bottom: 20px;
+}
+
+.news {
+    margin-bottom: 30px;
+}
+
+.news > div:first-child {
+    float: left;
+    width: 50%;
+}
+
+.news > div:last-child {
+    float: left;
+    width: 50%;
+}
+
+.coreContent3 li {
+    float: left;
+    margin-left: 20px;
+    width: 30%;
+}
+
+.case h3 {
+    border-left: 3px solid #ff0000;
+    padding-left: 10px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.case div {
+    margin-left: 30px;
+}
+
+.case p {
+    margin: 0;
+    width: 239px;
+    color: #888;
+}

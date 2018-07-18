@@ -1,0 +1,66 @@
+/*背景*/
+#bg {
+    margin-top: 10px;
+    margin-bottom: 300px;
+}
+
+.banner-container {
+    margin: 0 auto;
+    width: 1230px;
+    height: 430px;
+    background: url(../images/banner.png) no-repeat right center;
+}
+
+.main-container {
+    margin: 0 auto;
+    width: 1230px;
+    transition: transform 1s;
+    transform: translate(0,300px)
+}
+
+.case_hd ul {
+    border-top: 3px solid #e50011;
+    width: 1230px;
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.case_hd li {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.case_hd li span {
+    display: block;
+    height: 82px;
+    line-height: 82px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, .9);
+    background-color: rgba(238, 238, 238, .1);
+}
+
+.case_hd li span:hover {
+    background-color: rgba(238, 238, 238, .2);
+}
+
+.case_bd {
+    margin-top: 30px;
+}
+
+.case_bd > div {
+    padding-left: 25px;
+}
+
+.case_bd li {
+    float: left;
+}
+
+.currentSelect {
+    border-bottom: 3px solid #0ec8dc;
+}
+
+.tab2-case_bd, .tab3-case_bd, .tab4-case_bd {
+    display: none;
+}
+
+

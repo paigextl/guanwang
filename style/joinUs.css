@@ -1,0 +1,93 @@
+/*大字标题*/
+#banner {
+    background-color: #000103;
+}
+
+.banner-container {
+    position: relative;
+    margin: 0 auto;
+    width: 1230px;
+    height: 420px;
+    background: url(../images/joinus-banner-bg.jpg) no-repeat right bottom;
+    background-size: auto 100%;
+}
+
+.banner-container img {
+    position: absolute;
+    top: 100px;
+    width: 460px;
+    transition: transform 1s;
+    transform: translate(300px, 300px)
+}
+
+/*主要内容*/
+#main {
+    padding-bottom: 100px;
+    background-color: #000103;
+}
+
+.main-container {
+    margin: 0 auto;
+    width: 1230px;
+}
+
+.col-job {
+    float: left;
+    border-right: 1px solid #fff;
+    padding-top: 47px;
+    width: 300px;
+    transition: transform 1s;
+    transform: translate(-100px, 0);
+}
+
+.col-jobDetail {
+    margin-left: 310px;
+    padding-bottom: 30px;
+    color: #fff;
+    transition: transform 1s;
+    transform: translate(800px, 0);
+}
+
+.col-job ul {
+    margin-left: 30px;
+    height: 206px;
+}
+
+.col-job a {
+    display: block;
+    margin-bottom: 35px;
+    padding-left: 10px;
+    line-height: 18px;
+    color: #666;
+}
+
+.col-job a:hover {
+    color: #fff;
+}
+
+.border-style {
+    border-left: 3px solid #337ab7;
+}
+
+.job-show {
+    display: block;
+}
+
+.job-hide {
+    display: none;
+}
+
+.detail {
+    padding-top: 14px;
+    padding-left: 34px;
+}
+
+.detail h4 {
+    font-weight: normal;
+    color: #19d2d9;
+}
+
+.detail p {
+    font-size: 14px;
+}
+

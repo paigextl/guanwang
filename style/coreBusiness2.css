@@ -1,0 +1,65 @@
+/*大字标题*/
+#banner {
+    height: 320px;
+    background: #000103 url(../images/banner-bg-5.jpg) no-repeat center center;
+}
+
+.banner-container {
+    margin: 0 auto;
+    width: 1230px;
+    height: inherit;
+    background: #000103 url(../images/coreBusiness2.png) no-repeat center center;
+}
+
+/*主要内容*/
+#main {
+    position: relative;
+    border-top: 3px solid #e50011;
+    margin: 0 auto;
+    width: 1230px;
+    font-size: 14px;
+    background-color: #fff;
+    transition: transform 1s;
+    transform: translate(0, 500px);
+}
+
+.main-content {
+    padding: 20px 100px;
+}
+
+.coreContent1 {
+    margin-bottom: 100px;
+}
+
+.coreContent1 h1 {
+    border-bottom: 1px solid #cecece;
+    margin-bottom: 20px;
+    font-size: 28px;
+    line-height: 82px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.coreContent1 > div > div:first-child {
+    float: left;
+    width: 48%;
+}
+
+.coreContent1 > div > div:last-child {
+    float: right;
+    width: 45%;
+    color: #000;
+}
+
+.coreContent2 {
+    margin-bottom: 100px;
+}
+
+.coreContent2 h1 {
+    border-bottom: 1px solid #cecece;
+    margin-bottom: 20px;
+    font-size: 28px;
+    line-height: 82px;
+    font-weight: 600;
+    color: #000000;
+}
